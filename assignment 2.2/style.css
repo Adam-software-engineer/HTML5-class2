@@ -4,7 +4,55 @@ aside {
     margin-left: 0.5rem;
     float: right;
     box-shadow: inset 5px 0 5px -5px black;
-    font-style: italic;
+    font-style: cursive;
     font-size: .9;
     color: black;
+}
+
+a {
+    padding-right: .10in;
+    color:coral;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+p {
+    word-spacing: .05in;
+    padding-top: .05in;
+    font-family: cursive;
+    font-weight: 100;
+    font-size: medium;
+}
+
+footer {
+    color: blue;
+    font-weight: 200;
+    font-family: cursive;
+    font-size: small;
+    padding-top: .25in;
+}
+
+body {
+    background-color: lightgray;
+}
+
+header {
+    font-family: cursive;
+    font-weight: 200;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: x-large;
+}
+
+h2 {
+    font-family: cursive;
+    font-size: large;
+    font-weight: 200;
+}
+
+u {
+    font-family: cursive;
+    font-size: large;
 }
