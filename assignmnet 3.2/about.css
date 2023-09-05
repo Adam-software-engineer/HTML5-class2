@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+nav {
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    padding-bottom: 2%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: large;
+    justify-content: space-around;
+    display: flex;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+img {
+    width: 20%;
+    display: flex;
+    padding-left: 40%;
+}
+
+figcaption {
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+}
+
+address {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+blockquote {
+    display: flex;
+    justify-content: center;
+}
