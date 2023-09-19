@@ -1,55 +1,96 @@
+
+<!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+
+    <title>Bruno Simon</title>
+    <meta name="description" content="Creative developer living in Paris, freelancer, former lead developer at Immersive Garden, former developer at Uzik and teacher.">
+
+    <meta itemprop="name" content="Bruno Simon - Creative developer">
+    <meta itemprop="description" content="Creative developer living in Paris, freelancer, former lead developer at Immersive Garden, former developer at Uzik and teacher.">
+    <meta itemprop="image" content="https://bruno-simon.com/social/share-1200x630.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bruno Simon - Creative developer">
+    <meta name="twitter:description" content="Creative developer living in Paris, freelancer, former lead developer at Immersive Garden, former developer at Uzik and teacher.">
+    <meta name="twitter:image" content="https://bruno-simon.com/social/share-1200x600.png">
+
+    <meta property="og:site_name" content="Bruno Simon - Creative developer">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bruno-simon.com">
+    <meta property="og:title" content="Bruno Simon - Creative developer">
+    <meta property="og:description" content="Creative developer living in Paris, freelancer, former lead developer at Immersive Garden, former developer at Uzik and teacher.">
+    <meta property="og:image" content="https://bruno-simon.com/social/share-1200x630.png">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#ff8908">
+    <meta name="apple-mobile-web-app-title" content="Bruno Simon">
+    <meta name="application-name" content="Bruno Simon">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=block" rel="stylesheet">
 </head>
 <body>
 
-    <!-- this will add the nav bar too the top and assign navbar as the id of the div -->
-    <header>
-        <div id="navbar">
-            <nav>
-                <!-- will add all the links for the other pages in the website -->
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="examples.html">Example</a>
-            </nav>
+    <canvas class="canvas js-canvas"></canvas>
+
+    <div class="threejs-journey is-hover-none js-threejs-journey">
+        <div class="message js-message">
+            <div class="boy">
+                <div class="variant is-hi">
+                    <div class="body"></div>
+                    <div class="arm js-boy-arm"></div>
+                </div>
+                <div class="variant is-yay"></div>
+                <div class="variant is-shrugging"></div>
+            </div>
+            <div class="bubble">
+                <div class="text">Hey! You seem to really enjoy my portfolio.</div>
+                <div class="tip"></div>
+            </div>
         </div>
-    </header>
-    <!-- will break the page by one line -->
-    <br>
-    <section>
-        <h1>ADAM SANLER</h1>
-        <h2>The Artist</h2>
-    </section>
+        <div class="message js-message">
+            <div class="bubble">
+                <div class="text">Would you like to learn how to create cool websites like this?</div>
+                <div class="tip"></div>
+            </div>
+        </div>
+        <div class="message js-message is-answers">
+            <a href="#" class="answer is-no js-no">
+                <span class="background"></span>
+                <span class="hover"></span>
+                <span class="label">Nah, I'm good</span>
+            </a>
+            <a href="https://threejs-journey.com?c=p1" target="_blank" rel="noopener" class="answer is-yes js-yes">
+                <span class="background"></span>
+                <span class="hover"></span>
+                <span class="label">Yes, teach me!</span>
+            </a>
+        </div>
+        <div class="message js-message">
+            <div class="bubble">
+                <div class="text">Alright then.<br>Have fun and try not to break my car!</div>
+                <div class="tip"></div>
+            </div>
+        </div>
+    </div>
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3966601-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || []
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date())
+        gtag('config', 'UA-3966601-5')
+    </script>
 
-    <main>
-        <figure id="Artistimg1">
-            <!-- adding the image too the page add then changing the width of it all -->
-            <img src="img/indeximg.jpeg" alt="img1" width="600" height="400">
-        </figure>
-        <br>
-        <!-- Info for the page will go inside of here -->
-         <article>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat hic quibusdam alias, maiores tempore harum, excepturi ullam qui quisquam non cumque nemo? Nisi ex suscipit, qui voluptates officia harum neque?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus amet necessitatibus quam blanditiis voluptatum consectetur consequatur dignissimos quas. Architecto maxime dolor nobis ab praesentium quisquam officia nesciunt quas ut voluptas!
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic magni vero delectus, voluptatem quisquam inventore facere maxime voluptatibus nobis, blanditiis nam eum dolore nostrum quo doloribus, illo ad molestiae qui.
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis rem, laboriosam ratione dicta exercitationem ut? Asperiores similique, ipsam voluptatibus iure veritatis fugiat porro architecto, nihil dicta pariatur nemo non illum!
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit voluptates, temporibus, accusantium omnis porro, earum in quidem nesciunt eligendi laboriosam explicabo molestias ipsam! Facere rem repellat, minus quae neque reiciendis.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi nisi sapiente iste deleniti dolorem vero, quas et quaerat id vel repudiandae minima itaque doloribus rerum, ea provident non laborum molestias?
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed unde, quaerat obcaecati magnam sapiente ratione quas itaque nihil fugit corrupti pariatur debitis corporis, iure esse consequatur eaque voluptatum maiores dolore.
-            </p>
-         </article>
-         <br>
-
-    </main>
-    
-    <footer>
-        <p>&copy; Adam Steinberg 2023</p>
-    </footer>
-</body>
+<script type="text/javascript" src="bundle.40fe47fbdaeb1d9e21f4.js"></script></body>
 </html>
