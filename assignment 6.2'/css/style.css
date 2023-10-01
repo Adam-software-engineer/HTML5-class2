@@ -1,0 +1,153 @@
+#wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+body {
+    background-color: black;
+    font-family: arial;
+    font-size: 1em;
+}
+
+.img1 img {
+    border-radius: 30%;
+    width: 60%;
+}
+
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img2 img {
+    width: 60%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner {
+    background-image: url(../img/banner.jpeg);
+    background-size: cover;
+}
+
+.banner h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+#category h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+    font-family: fantasy;
+}
+
+#category {
+    padding: 10px;
+}
+
+#category p {
+    color: white;
+    font-family: fantasy;
+    font-size: large;
+}
+
+#text p {
+    font-size: larger;
+    color: white;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav {
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    float: left;
+    display: block;
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+    padding: 10px;
+}
+
+nav a:hover {
+    display: block;
+    background-color: white;
+    font-weight: 500;
+    color: black;
+}
+
+footer p {
+    color: white;
+    font-size: smaller;
+}
+
+h1 {
+    font-family: arial;
+    font-size: 2em;
+}
+
+a {
+    line-height: 2;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+li {
+    display: inline;
+    padding-right: 10px;
+}
+
+u {
+    color: white;
+}
+
+#con h2 {
+    display: block;
+    color: white;
+    padding-top: 10px;
+    font-family: fantasy;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#con p {
+    font-family: fantasy;
+    color: white;
+    padding: 10px;
+}
+
+#con {
+    padding: 10px;
+}
+
+#con img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+}
