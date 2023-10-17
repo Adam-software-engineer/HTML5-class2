@@ -1,0 +1,94 @@
+#wrapper {
+    width: 1000px;
+    background-image: url(../img/M&M-Background-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+body {
+    font-size: 1em;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Logo h1 {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-style: italic;
+    letter-spacing: .4em;
+    font-size: 1.5em;
+}
+
+.Logo img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+.Nav a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    line-height: 1.6em;
+}
+
+.Nav a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+Nav {
+    text-align: center;
+    font-family: cursive;
+    letter-spacing: .4em;
+}
+
+.text_index {
+    color: ghostwhite;
+    font-style: normal;
+    text-align: center;
+    padding: 25px;
+}
+
+.text_index p {
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: cursive;
+}
+
+.text_index h2 {
+    margin: auto;
+    padding: 15px;
+    font-style: italic;
+    font-family: cursive;
+    color: ghostwhite;
+    font-weight: 400;
+    letter-spacing: .4em;
+    font-size: 1.2em;
+}
+
+footer {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.4;
+    letter-spacing: .4em;
+    font-family: cursive;
+    color: ghostwhite;
+    text-align: center;
+    padding: 5px;
+    padding-top: 20px;
+}
