@@ -7,22 +7,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
+    padding: 10px;
 }
 
 body {
     font-size: 1em;
     background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.Logo h1 {
-    display: flex;
-    justify-content: center;
-    color: whitesmoke;
-    font-style: italic;
-    letter-spacing: .4em;
-    font-size: 1.5em;
 }
 
 .Logo img {
@@ -34,10 +25,10 @@ body {
 }
 
 .Nav a {
-    padding: 15px;
+    padding: 10px;
     color: white;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 10%;
     line-height: 1.6em;
 }
 
@@ -51,6 +42,9 @@ Nav {
     text-align: center;
     font-family: cursive;
     letter-spacing: .4em;
+    background-color: rgb(164, 76, 76);
+    width: 100%;
+    padding: 5px;
 }
 
 .text_index {
@@ -79,16 +73,149 @@ Nav {
 
 footer {
     color: white;
-    font-size: 1em;
+    font-size: .6em;
     text-align: center;
 }
 
 .title {
     font-size: 1.4;
-    letter-spacing: .4em;
+    letter-spacing: 2em;
     font-family: cursive;
     color: ghostwhite;
     text-align: center;
     padding: 5px;
     padding-top: 20px;
+}
+
+.img1 img {
+    border-radius: 20%;
+    text-wrap: wrap;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.text_about {
+    text-wrap: wrap;
+}
+
+.text_about p {
+    color: ghostwhite;
+    font-family: cursive;
+    text-wrap: wrap;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.text_about h2 {
+    margin: auto;
+    padding: 15px;
+    font-style: italic;
+    font-family: cursive;
+    color: ghostwhite;
+    font-weight: 400;
+    letter-spacing: .4em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.text_about a {
+    text-decoration: none;
+    color: rgb(255, 137, 137);
+}
+
+.text_about a:hover {
+    background-color: rgb(231, 219, 219);
+    color: black;
+    text-decoration: underline;
+    border-radius: 10%;
+}
+
+.Text_specials p {
+    color: ghostwhite;
+    font-family: cursive;
+    font-style: normal;
+    letter-spacing: .3em;
+    text-align: center;
+}
+
+.special1 img {
+    text-wrap: wrap;
+    float: right;
+    border-radius: 10%;
+}
+
+.special2 img {
+    text-wrap: wrap;
+    float: left;
+    border-radius: 10%;
+}
+
+.special3 img {
+    text-wrap: wrap;
+    float: right;
+    border-radius: 10%;
+}
+
+.special4 img {
+    text-wrap: wrap;
+    float: left;
+    border-radius: 10%;
+}
+
+.ending_text h2 {
+    margin: auto;
+    padding: 15px;
+    font-style: italic;
+    font-family: cursive;
+    color: ghostwhite;
+    font-weight: 400;
+    letter-spacing: .4em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.contact {
+    color: ghostwhite;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact h1 {
+    letter-spacing: .8em;
+    font-size: 3em;
+    font-family: cursive;
+}
+
+.PhoneInfo h2 {
+    letter-spacing: .4em;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+
+.PhoneInfo p {
+    letter-spacing: .9em;
+}
+
+.address h2 {
+    letter-spacing: .4em;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+
+.address p {
+    letter-spacing: .9em;
+    font-family: cursive;
+}
+
+.DaysOpen h2 {
+    letter-spacing: .4em;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+
+.DaysOpen p {
+    letter-spacing: .9em;
+    font-family: cursive;
 }
