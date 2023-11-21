@@ -1,0 +1,232 @@
+#wrapper {
+    width: 1000px;
+    margin-left: 100px;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: center;
+    background-color: lightcyan;
+}
+
+body {
+    background-color: black;
+}
+
+.top {
+    width: 1000px;
+    height: 170px;
+    margin-top: -20px;
+    border-bottom: 1px solid black;
+    background-image: url(../img/our_rock_banner.jpg);
+    background-position: center;
+    background-repeat: none;
+}
+
+.top h1 {
+    text-align: center;
+    letter-spacing: .4em;
+    font-size: 1.5em;
+    padding-top: 70px;
+    font-style: italic;
+    color: black;
+    text-shadow: 3px 3px 11px rgb(217, 128, 255);
+}
+
+.left {
+    background-color: (116, 238, 21);
+    float: left;
+    width: 145px;
+    height: 700px;
+    padding-left: 20px;
+    border: 1px solid black;
+    background-color: rgb(85, 76, 76);
+}
+
+.left h2 {
+    letter-spacing: .4em;
+    font-size: 1.4em;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: .2em;
+}
+
+li {
+    padding: 5px;
+}
+
+nav a:visited {
+    color: green;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+nav a:active a:link {
+    color: red;
+}
+
+.main {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightcyan;
+    float: right;
+    padding-right: 10px;
+    width: 815px;
+    border: 3px solid black;
+}
+
+.main h3 {
+    text-align: center;
+    letter-spacing: .4em;
+    font-size: 1.3em;
+}
+
+.contact_data {
+    display: block;
+    float: right;
+    padding: 10px;
+    width: 400px;
+}
+
+.right {
+    display: block;
+    width: 400px;
+    height: 300px;
+}
+
+.contact_data h3 {
+    text-align: center;
+    letter-spacing: .4em;
+    font-size: 1.3em;
+}
+
+input {
+    size: 300px;
+}
+
+
+/* Additional styles for better readability */
+
+.contact_data fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    /* Adjust as needed */
+}
+
+.contact_data form {
+    max-width: 300px;
+    padding-right: 20px;
+    margin-right: auto;
+}
+
+.right fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    /* Adjust as needed */
+}
+
+.right form {
+    max-width: 300px;
+    padding-right: 20px;
+    margin-left: auto;
+    max-height: 200px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+}
+
+.contact_data label {
+    color: black;
+    font-size: larger;
+}
+
+.right label {
+    color: black;
+    font-size: larger;
+}
+
+.bottom {
+    clear: both;
+    width: 1000px;
+    background-color: white;
+    text-align: center;
+}
+
+.local {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.local_contact {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+    letter-spacing: .3em;
+    font-size: larger;
+}
+
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.img2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 15%;
+}
+
+.img3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.right {
+    float: right;
+}
+
+.right p {
+    color: blue;
+}
+
+.right h3 {
+    letter-spacing: .5em;
+    text-shadow: 3px 3px 11px rgb(217, 128, 255);
+}
+
+.right li {
+    color: rgb(168, 86, 100);
+    font-size: 1.2em;
+}

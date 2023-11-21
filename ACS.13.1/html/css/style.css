@@ -1,0 +1,151 @@
+#wrapper {
+    width: 1000px;
+    margin-left: 100px;
+    background-color: cyan;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+body {
+    background-color: black;
+}
+
+.top {
+    width: 1000px;
+    height: 170px;
+    margin-top: -20px;
+    border-bottom: 1px solid black;
+    background-image: url(../img/traval_banner.jpg);
+    background-position: center;
+    background-repeat: none;
+}
+
+.top h1 {
+    text-align: center;
+    letter-spacing: .4em;
+    font-size: 1.5em;
+    padding-top: 70px;
+    font-style: italic;
+    color: black;
+}
+
+.left {
+    background-color: (116, 238, 21);
+    float: left;
+    width: 145px;
+    height: auto;
+    padding-left: 20px;
+    border: 1px solid black;
+    background-color: rgb(85, 76, 76);
+}
+
+.left h2 {
+    letter-spacing: .4em;
+    font-size: 1.4em;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: .2em;
+}
+
+li {
+    padding: 5px;
+}
+
+nav a:visited {
+    color: green;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+nav a:active a:link {
+    color: red;
+}
+
+.main {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: cyan;
+    float: right;
+    padding-right: 10px;
+    width: 815px;
+    text-wrap: wrap;
+}
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.main h3 {
+    text-align: center;
+    letter-spacing: .4em;
+    font-size: 1.3em;
+}
+
+.bottom {
+    clear: both;
+    width: 1000px;
+    background-color: cyan;
+    text-align: center;
+}
+
+.local {
+    background-color: cyan;
+    padding: 5px;
+    text-align: center;
+    text-wrap: wrap;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    text-wrap: wrap;
+}
+
+.main h4 {
+    text-align: center;
+    letter-spacing: .4em;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+.back {
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 10px;
+    font-size: larger;
+}
+
+.back a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: .2em;
+    padding: 5px;
+}
+
+.back a:hover {
+    background: white;
+    color: black;
+    border-radius: 20%;
+    text-decoration: underline;
+}
+
+.back a:visited {
+    color: green;
+}

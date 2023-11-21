@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header class="top">
+            <!--set background banner-->
+            <h1>Contact</h1>
+        </header>
+
+        <nav class="left">
+
+            <h2><a href="index.html">HOME</a></h2>
+
+            <h2><a href="contact.html">Contact</a></h2>
+
+            <h2><a href="blog.html">Blog</a></h2>
+
+        </nav>
+        <section class="main_area">
+            <div class="contact_data">
+                <form method="get" action="contact.php">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <p>
+                            <label for="fname">First Name</label> <br>
+                            <input type="text" name="fname" id="fname">
+                            <br>
+                            <br>
+                            <label for="lname">Last Name</label> <br>
+                            <input type="text" name="lname" id="lname">
+                            <br>
+                            <br>
+                            <label for="birth">Birth Date</label><br>
+                            <input type="date" name="birth" id="birth">
+                            <br>
+                            <br>
+                            <label for="saddress">Street Address</label> <br>
+                            <input type="text" name="saddress" id="saddress">
+                            <br>
+                            <br>
+                            <label for="city">City</label><br>
+                            <input type="text" name="city" id="city">
+                            <br>
+                            <br>
+
+
+                            <label for="fcolor">Favorite Color</label><br>
+                            <input type="color" name="fcolor" id="fcolor">
+
+                            <br>
+                            <br>
+
+                            <label for="email">Email</label><br>
+                            <input type="email" name="email" id="email">
+
+                            <br>
+                            <br>
+
+                            <p>
+                                <input type="submit" value="submit your form">
+                                <input type="reset" value="Reset the form">
+
+                            </p>
+                    </fieldset>
+
+            </div>
+
+            </fieldset>
+            </form>
+            <div class="right">
+                <form method="get" action="contact.php">
+
+                    <fieldset>
+                        <legend>Personal Information</legend>
+
+                        <label for="state">State</label><br>
+                        <input list="states">
+                        <datalist id="states">
+                                <option value="AL">Alabama</option>
+                                <option value="AK">Alaska</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="CT">Connecticut</option>
+                                <option value="DE">Delaware</option>
+                                <option value="DC">District Of Columbia</option>
+                                <option value="FL">Florida</option>
+                                <option value="GA">Georgia</option>
+                                <option value="HI">Hawaii</option>
+                                <option value="ID">Idaho</option>
+                                <option value="IL">Illinois</option>
+                                <option value="IN">Indiana</option>
+                                <option value="IA">Iowa</option>
+                                <option value="KS">Kansas</option>
+                                <option value="KY">Kentucky</option>
+                                <option value="LA">Louisiana</option>
+                                <option value="ME">Maine</option>
+                                <option value="MD">Maryland</option>
+                                <option value="MA">Massachusetts</option>
+                                <option value="MI">Michigan</option>
+                                <option value="MN">Minnesota</option>
+                                <option value="MS">Mississippi</option>
+                                <option value="MO">Missouri</option>
+                                <option value="MT">Montana</option>
+                                <option value="NE">Nebraska</option>
+                                <option value="NV">Nevada</option>
+                                <option value="NH">New Hampshire</option>
+                                <option value="NJ">New Jersey</option>
+                                <option value="NM">New Mexico</option>
+                                <option value="NY">New York</option>
+                                <option value="NC">North Carolina</option>
+                                <option value="ND">North Dakota</option>
+                                <option value="OH">Ohio</option>
+                                <option value="OK">Oklahoma</option>
+                                <option value="OR">Oregon</option>
+                                <option value="PA">Pennsylvania</option>
+                                <option value="RI">Rhode Island</option>
+                                <option value="SC">South Carolina</option>
+                                <option value="SD">South Dakota</option>
+                                <option value="TN">Tennessee</option>
+                                <option value="TX">Texas</option>
+                                <option value="UT">Utah</option>
+                                <option value="VT">Vermont</option>
+                                <option value="VA">Virginia</option>
+                                <option value="WA">Washington</option>
+                                <option value="WV">West Virginia</option>
+                                <option value="WI">Wisconsin</option>
+                                <option value="WY">Wyoming</option>                      
+                            </datalist>
+                        <br>
+                        <br>
+                        <label for="zip">Zip</label><br>
+                        <input type="text" name="zip" id="zip">
+                        <br>
+                        <br>
+                        <label for="PNum">Phone Number</label><br>
+                        <input type="text" name="PNum" id="PNum">
+                        <br>
+                        <br>
+                        <label for="gender">Gender</label><br>
+                        <input type="radio" name="gender" id="gender">
+                        <label for="gender">Male</label><br>
+                        <input type="radio" name="gender" id="gender">
+                        <label for="gender">Female</label><br>
+                        <input type="radio" name="gender" id="gender">
+                        <label for="gender">Unknown</label><br>
+                        <br>
+
+                        <label for="favoriteCrystals">Select your favorite crystals:</label> <br>
+
+                        <input type="checkbox" id="garnet" name="favoriteCrystals" value="Garnet">
+                        <label for="garnet">Garnet</label><br>
+
+                        <input type="checkbox" id="tigerEye" name="favoriteCrystals" value="Tiger's Eye">
+                        <label for="tigerEye">Tiger's Eye</label><br>
+
+                        <input type="checkbox" id="aquamarine" name="favoriteCrystals" value="Aquamarine">
+                        <label for="aquamarine">Aquamarine</label><br>
+
+                        <input type="checkbox" id="amazonite" name="favoriteCrystals" value="Amazonite">
+                        <label for="amazonite">Amazonite</label><br>
+
+                        <input type="checkbox" id="carnelian" name="favoriteCrystals" value="Carnelian">
+                        <label for="carnelian">Carnelian</label><br>
+
+                        <input type="checkbox" id="blackTourmaline" name="favoriteCrystals" value="Black Tourmaline">
+                        <label for="blackTourmaline">Black Tourmaline</label><br>
+
+                        <input type="checkbox" id="sodalite" name="favoriteCrystals" value="Sodalite">
+                        <label for="sodalite">Sodalite</label><br>
+
+                        <input type="checkbox" id="kyanite" name="favoriteCrystals" value="Kyanite">
+                        <label for="kyanite">Kyanite</label><br>
+
+                        <input type="checkbox" id="agate" name="favoriteCrystals" value="Agate">
+                        <label for="agate">Agate</label><br>
+
+                        <input type="checkbox" id="hematite" name="favoriteCrystals" value="Hematite">
+                        <label for="hematite">Hematite</label><br>
+
+                        <input type="checkbox" id="jasper" name="favoriteCrystals" value="Jasper">
+                        <label for="jasper">Jasper</label><br>
+
+                        <input type="checkbox" id="sunstone" name="favoriteCrystals" value="Sunstone">
+                        <label for="sunstone">Sunstone</label><br>
+
+                        <input type="checkbox" id="charoite" name="favoriteCrystals" value="Charoite">
+                        <label for="charoite">Charoite</label><br>
+                        <br>
+                        <input type="reset" value="reset the form">
+
+
+
+                    </fieldset>
+                </form>
+            </div>
+
+
+        </section>
+
+        <footer class="bottom">
+            <p>&copy; Adam Steinber 2023</p>
+        </footer>
+    </div>
+</body>
+
+</html>
